@@ -47,7 +47,7 @@ public class UserEntryFormController {
 	public User setUpForm() {
 		User user = new User();
 		MessageSourceAccessor accessor = new MessageSourceAccessor(this.messageSource);
-		user.setUserID(accessor.getMessage("user.userId.default"));
+		user.setUserId(accessor.getMessage("user.userId.default"));
 		user.setUserName(accessor.getMessage("user.userName.default"));
 		return user;
 	}

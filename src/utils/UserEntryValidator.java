@@ -14,7 +14,7 @@ public class UserEntryValidator implements Validator {
 	public void validate(Object command, Errors errors) {
 		User user = (User) command;
 		
-		if(!StringUtils.hasLength(user.getUserID())) {
+		if(!StringUtils.hasLength(user.getUserId())) {
 			errors.rejectValue("userId", "error.required");
 		}
 		if(!StringUtils.hasLength(user.getPassword())) {

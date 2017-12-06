@@ -11,7 +11,7 @@
   </welcome-file-list>
   
   <filter>
-  	<filter-name>CHaracterEncodingFilter</filter-name>
+  	<filter-name>CharacterEncodingFilter</filter-name>
   	<filter-class>
   		org.springframework.web.filter.CharacterEncodingFilter
   	</filter-class>

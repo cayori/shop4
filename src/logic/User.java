@@ -7,7 +7,7 @@ public class User implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private String userID;
+	private String userId;
 	private String password;
 	private String userName;
 	private String postCode;
@@ -17,11 +17,11 @@ public class User implements Serializable {
 	private Date birthDay;
 	
 	
-	public String getUserID() {
-		return userID;
+	public String getUserId() {
+		return userId;
 	}
-	public void setUserID(String userID) {
-		this.userID = userID;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 	public String getPassword() {
 		return password;
